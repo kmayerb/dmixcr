@@ -6,6 +6,20 @@ The only modification is the removal of an entry point and addition of ps functi
 
 ## Example
 
+### Run Script
+
+```bash
+INSERT
+```
+
+### Config
+
+```bash
+INSERT
+```
+
+### Workflow
+
 ```groovy
 params.output_folder = "." 
 params.batchfile = "batchfile.csv"
