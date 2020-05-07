@@ -39,7 +39,7 @@ process align {
     publishDir params.output_folder
 
     input:
-    set name, val(fastq1) from fastq_ch
+    set name, file(fastq1) from fastq_ch
 
     output:  
     file "${name}.result.txt" into align_result_channel
